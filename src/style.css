@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+#app {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+#contact-form,
+#filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact-list {
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.contact-item span {
+  display: block;
+}
+
+.contact-item button {
+  margin-left: 10px;
+}
+
+#pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}

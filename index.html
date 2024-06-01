@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Əlaqə Kitabı</h1>
+      <div id="contact-form">
+        <input type="text" id="first-name" placeholder="Ad" />
+        <input type="text" id="last-name" placeholder="Soyad" />
+        <input type="text" id="phone" placeholder="Telefon Nömrəsi" />
+        <input type="email" id="email" placeholder="E-poçt Ünvanı" />
+        <button id="add-contact">Əlavə et</button>
+      </div>
+      <div id="filters">
+        <select id="filter-criteria">
+          <option value="firstName">Ad</option>
+          <option value="lastName">Soyad</option>
+          <option value="phone">Telefon Nömrəsi</option>
+          <option value="email">E-poçt Ünvanı</option>
+        </select>
+        <input type="text" id="filter-value" placeholder="Axtar" />
+        <button id="filter">Filtrlə</button>
+      </div>
+      <div id="contact-list"></div>
+      <div id="pagination">
+        <button id="prev-page">Əvvəlki</button>
+        <span id="page-info">1/1</span>
+        <button id="next-page">Sonrakı</button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
